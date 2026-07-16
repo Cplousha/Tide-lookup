@@ -113,7 +113,7 @@ if st.session_state.matching_stations:
                 "begin_date": begin_date,
                 "end_date": end_date,
                 "datum": "MLLW",       # standard tide reference level
-                "time_zone": "lst_ld", # station's local time, adjusted for daylight saving
+                "time_zone": "lst_ldt", # station's local time, adjusted for daylight saving
                 "units": "english",    # feet
                 "interval": "hilo",    # only the high/low turning points
                 "format": "json",
